@@ -1,0 +1,8 @@
+[Unit]
+Description=Hack the Planet!
+
+[Service]
+ExecStart=/usr/bin/chmod 777 /sys/class/backlight/amdgpu_bl0/brightness
+
+[Install]
+WantedBy=multi-user.target
