@@ -16,7 +16,7 @@ i repeat that its really not recommended to do it this way - if you have a bette
 put the scripts in your .config/ folder in home
 ### step 2 - the i3/config
 i dont recommend to replace your config, but if you want, you can do that - i recommend to add the last 2 or 3 lines, the bindcodes, to your config.
-if you want to store the bright_dec.sh or bright_inc.sh in another location, dont forget to change it to this location here.
+if you want to store the bright_dec.sh or bright_inc.sh in another location, dont forget to change it to that location here in your config.
 ### step 3 - creating a systemd service
 put the brightnesshack.service file in the systemd directory: /etc/systemd/system/
 and enable the service with systemctl enable brightnesshack.service as root (or with sudo)
